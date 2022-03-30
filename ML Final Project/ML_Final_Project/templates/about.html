@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1 class="heb">Generative Adversarial Networks on Crypto Punks</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2 class="heb"><b>Machine Learning Project Review</b></h2>
+        <p class="heb">
+            As part of computer science studies in grades 11,12 we have been asked to write a machine learning project on a subject of our choice.
+            <br /><br />
+            In my project i've decided to include personal things I find out interesting such as NFTs.<br />
+            I have taken 10,000 Pictures of the Crypto Punks NFT Collection and built a special kind of deep neural network that doesn't output a binary output such as True\False but outputs a picture.<br />
+            My goal was to create a network that will create pictures that would look like they originally belong to the original collection.
+            <br /><br />
+            The Crypto Punks collection includes 10,000 unique pictures of 24x24 pixels each.
+            <br />
+            Here are some examples of how they look
+            <table>
+                <tr>
+                    <td>
+                        <img src="\static\pics\9929.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9929.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9930.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9931.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9932.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9933.png" class="img-thumbnail" height="96" width="96">
+                    </td>
+                    <td>
+                        <img src="\static\pics\9936.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9937.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9938.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9939.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9940.png" class="img-thumbnail" height="96" width="96">
+                        <img src="\static\pics\9941.png" class="img-thumbnail" height="96" width="96">
+                    </td>
+                </tr>
+
+            </table>
+        </p>
+
+    </div>
+
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-5">
+        <br /><br /><br /><br /><br />
+        <h4>Link To Learn About GAN</h4>
+        <a class="btn btn-primary heb" href="https://developers.google.com/machine-learning/gan" target="_blank">Go &raquo;</a>
+    </div>
+</div>
+
+
+
+
+{% endblock %}
